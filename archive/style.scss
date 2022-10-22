@@ -1,0 +1,32 @@
+#calculator{
+  width: 250px;
+} 
+
+#screen{
+  height: 35px;
+}
+
+#calculator{
+  a{
+    width: 100%;
+    height: 50px;
+
+    // border: 2px solid $dark;
+    color: $white!important;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    &:hover{
+      color: $dark!important;
+      background-color: $secondary;
+    }
+  }
+  #equal{
+    color: $dark!important;
+  }
+}
+
+#previous-operations, #current-operations{
+  min-height: 1.6em;
+  overflow-wrap: break-word;
+}
